@@ -1,13 +1,5 @@
 # College Enquiry Chatbot #
 
-<br>
-
-![](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)  &emsp; &emsp;
-![](https://img.shields.io/github/forks/Candida18/College-Enquiry-Chatbot?style=for-the-badge) &emsp; &emsp;
-![](https://img.shields.io/github/stars/Candida18/College-Enquiry-Chatbot?style=for-the-badge) &emsp; &emsp;
-![](https://img.shields.io/github/license/Candida18/College-Enquiry-Chatbot?style=for-the-badge) &emsp; &emsp;
-
-<br>
 
 ## ABSTRACT 
 
