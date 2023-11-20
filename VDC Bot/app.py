@@ -12,8 +12,8 @@ app.static_folder = 'static'
 
 app.config.update(dict(
     RECAPTCHA_ENABLED = True,
-    RECAPTCHA_SITE_KEY = "6LdbAx0aAAAAAANl04WHtDbraFMufACHccHbn09L",
-    RECAPTCHA_SECRET_KEY = "6LdbAx0aAAAAAMmkgBKJ2Z9xsQjMD5YutoXC6Wee"
+    RECAPTCHA_SITE_KEY = "",
+    RECAPTCHA_SECRET_KEY = ""
 ))
 
 recaptcha=ReCaptcha()
@@ -25,8 +25,6 @@ app.config['SECRET_KEY'] = 'cairocoders-ednalan'
 conn=mysql.connector.connect(host='localhost',port='3306',user='root',password='sheetal@2000',database='register')
 cur=conn.cursor()
 
-# Google recaptcha - site key : 6LdbAx0aAAAAAANl04WHtDbraFMufACHccHbn09L
-# Google recaptcha - secret key : 6LdbAx0aAAAAAMmkgBKJ2Z9xsQjMD5YutoXC6Wee
 
 @app.route("/index")
 def home():
